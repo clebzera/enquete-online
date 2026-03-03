@@ -4,7 +4,7 @@ sim = 0
 nao = 0
 
 print("=== ENQUETE ===")
-print("Você gosta de programar em Python?")
+print("Você vai pro arraia da poica?")
 print("Digite 'sim' ou 'nao'")
 print("Digite 'sair' para encerrar a votação.\n")
 
@@ -33,4 +33,5 @@ if total > 0:
     print(f"Percentual SIM: {(sim/total)*100:.1f}%")
     print(f"Percentual NÃO: {(nao/total)*100:.1f}%")
 else:
+
     print("Nenhum voto foi registrado.")
